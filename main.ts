@@ -266,5 +266,5 @@ game.onUpdateInterval(500, function () {
         . . . . . . . . . . . . . . . . . . . . . . . . 
         . . . . . . . . . . . . . . . . . . . . . . . . 
         `, SpriteKind.Enemy)
-    enemySprite.setPosition(randint(0, 160), randint(0, 120))
+    enemySprite.setPosition(randint(140, 160), randint(0, 120))
 })
