@@ -68,7 +68,7 @@ sprites.onOverlap(SpriteKind.Projectile, SpriteKind.Enemy, function (sprite, oth
 })
 sprites.onOverlap(SpriteKind.Player, SpriteKind.Enemy, function (sprite, otherSprite) {
     otherSprite.destroy()
-    scene.cameraShake(4, 500)
+    scene.cameraShake(4, 200)
     info.changeLifeBy(-1)
 })
 let enemySprite: Sprite = null
